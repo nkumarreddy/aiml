@@ -6,3 +6,7 @@ d=12
 e=6
 f=d-e
 print(f)
+g=12
+h=23
+i=g*h
+print(i)
