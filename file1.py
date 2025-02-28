@@ -10,3 +10,7 @@ g=12
 h=23
 i=g*h
 print(i)
+j=2
+k=3
+l=j/k
+print(l)
