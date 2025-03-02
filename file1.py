@@ -14,3 +14,10 @@ j=2
 k=3
 l=j/k
 print(l)
+
+
+reverse a number
+a=10
+b=20
+(a,b)=(b,a)
+print(a,b)
