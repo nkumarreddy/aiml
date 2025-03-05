@@ -31,4 +31,9 @@ fact = 1
 for i in range(1, num + 1):
     fact *= i
 
-print(fact)
+print(fact)i
+
+#celius to fahrenheit
+celsius = float(input("Enter temperature in Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print(fahrenheit)
