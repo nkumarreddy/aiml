@@ -17,7 +17,6 @@ print(l)
 
 
 #reverse a number 
-#reverse a number
 a=10
 b=20
 (a,b)=(b,a)
@@ -39,7 +38,7 @@ celsius = float(input("Enter temperature in Celsius: "))
 fahrenheit = (celsius * 9/5) + 32
 print(fahrenheit)
 
-
+ 
 #banking system
 pin = 1234
 attempts = 0
@@ -56,3 +55,21 @@ while attempts < 3:
 
 if attempts == 3:
     print("Try later after 24 hours")
+
+
+# hotel reception
+confirm=input("do u want to eat (yes or no):")
+if confirm == "yes":
+    print("dosa or idli:")
+else:
+    drink = input("Do you want coffee or tea? (yes or no): ").lower()
+
+    if drink == "yes":
+        print("Coffee or Tea?")
+    else:
+        water = input("Do you want a water bottle? (yes or no): ").lower()
+
+        if water == "yes":
+            print("Here is your water bottle.")
+        else:
+            print("Okay, go out!")
