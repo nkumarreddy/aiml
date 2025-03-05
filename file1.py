@@ -16,6 +16,7 @@ l=j/k
 print(l)
 
 
+#reverse a number 
 #reverse a number
 a=10
 b=20
