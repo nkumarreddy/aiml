@@ -39,7 +39,7 @@ fahrenheit = (celsius * 9/5) + 32
 print(fahrenheit)
 
 
-#banking 
+#banking system
 pin = 1234
 attempts = 0
 
