@@ -101,3 +101,19 @@ for num in range(1, 11):
         total_cube_sum += cube
 print(f"Total sum of cubes: {total_cube_sum}")
 
+#Odd and Even numbers less than 100
+num = 1
+
+print("Even Numbers:")
+while num <= 100:
+    if num % 2 == 0:
+        print(num, end=" ")
+    num += 1
+
+# Reset num for odd numbers
+num = 1
+print("\nOdd Numbers:")
+while num <= 100:
+    if num % 2 != 0:
+        print(num, end=" ")
+    num += 1
