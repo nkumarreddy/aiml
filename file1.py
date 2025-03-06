@@ -73,3 +73,21 @@ else:
             print("Here is your water bottle.")
         else:
             print("Okay, go out!")
+
+#Simple Calculator 
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+op = input("Enter operator (+, -, *, /): ")
+
+match op:
+    case '+':
+        result = num1 + num2
+    case '-':
+        result = num1 - num2
+    case '*':
+        result = num1 * num2
+    case '/':
+        result = num1 / num2 if num2 != 0 else "Error: Division by zero"
+
+print("Result:", result)
