@@ -91,3 +91,13 @@ match op:
         result = num1 / num2 if num2 != 0 else "Error: Division by zero"
 
 print("Result:", result)
+
+#sum of cubes
+total_cube_sum = 0
+for num in range(1, 11):
+    if num % 2 != 0:
+        cube = num ** 3
+        print(f"Cube of {num} is {cube}")
+        total_cube_sum += cube
+print(f"Total sum of cubes: {total_cube_sum}")
+
