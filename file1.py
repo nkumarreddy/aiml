@@ -117,3 +117,10 @@ while num <= 100:
     if num % 2 != 0:
         print(num, end=" ")
     num += 1
+
+#sum of 'n' Natural numbers
+
+
+n = int(input("Enter a natural number: "))
+sum_n = n * (n + 1) // 2
+print(sum_n)
