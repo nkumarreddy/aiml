@@ -138,3 +138,13 @@ p=int(input("enter the princile:"))
 t=int(input("enter the time:"))
 r=int(input("enter the rate of interest:"))
 print("simple interest is:",((p*t*r)/100))
+
+# calculating sem fee and mess fee 
+sem = int(input("Enter 1 for one semester, 2 for both semesters: "))
+mess = int(input("Enter 0 for no mess, 1 for one sem mess, 2 for both sem mess: "))
+
+hostel_fee = 50000 if sem == 1 else 80000
+mess_fee = 15000 if mess == 1 else 30000 if mess == 2 else 0
+total_fee = hostel_fee + mess_fee
+
+print(f"Total fee to be paid: ₹{total_fee}")
