@@ -124,3 +124,11 @@ while num <= 100:
 n = int(input("Enter a natural number: "))
 sum_n = n * (n + 1) // 2
 print(sum_n)
+
+#finding larger number among 3 numbers
+
+a = float(input("Enter the nmber 1:"))
+b= float(input("Enter the nmber 2:"))
+c= float(input("Enter the nmber 3:"))
+larger = max(a,b,c)
+print(larger)
