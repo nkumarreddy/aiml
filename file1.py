@@ -132,3 +132,9 @@ b= float(input("Enter the nmber 2:"))
 c= float(input("Enter the nmber 3:"))
 larger = max(a,b,c)
 print(larger)
+
+#simple interest
+p=int(input("enter the princile:"))
+t=int(input("enter the time:"))
+r=int(input("enter the rate of interest:"))
+print("simple interest is:",((p*t*r)/100))
