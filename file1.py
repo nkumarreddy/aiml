@@ -148,3 +148,14 @@ mess_fee = 15000 if mess == 1 else 30000 if mess == 2 else 0
 total_fee = hostel_fee + mess_fee
 
 print(f"Total fee to be paid: ₹{total_fee}")
+
+
+# few operations on list
+l1=[2.57,3,78,10,5,786,76.09,8]
+l1.sort()
+#l1.reverse()
+#print(l1)
+#l1.pop(0)
+#print(l1.pop(0))
+print(l1)
+
