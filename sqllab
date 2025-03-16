@@ -36,3 +36,6 @@ DUE_DATE Date,
 PRimary key(BOOK_ID,BRANCH_ID));
 
 DESC BOOK_LENDING;
+
+
+create table BOOK_COPIES(
