@@ -39,3 +39,4 @@ DESC BOOK_LENDING;
 
 
 create table BOOK_COPIES(
+BOOK_ID INT references BOOK(BOOK_ID) ON delete CASCADE,
