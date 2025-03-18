@@ -46,4 +46,5 @@ primary key(BOOK_ID,BRANCH_ID));
 DESC BOOK_COPIES ;
 
 create table students(
-
+name varchar(30),
+age int(3),
