@@ -48,3 +48,5 @@ DESC BOOK_COPIES ;
 create table students(
 name varchar(30),
 age int(3),
+address varchar(50),
+
