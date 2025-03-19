@@ -45,8 +45,4 @@ NO_OF_COPIES INT,
 primary key(BOOK_ID,BRANCH_ID));
 DESC BOOK_COPIES ;
 
-create table students(
-name varchar(30),
-age int(3),
-address varchar(50),
-
+INSERT into PUBLISHER values("PEARSON","NEW_DELHI",9996621456);
