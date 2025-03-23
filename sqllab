@@ -54,5 +54,5 @@ INSERT into PUBLISHER values("abcd1","BANG1",11766549876);
 INSERT into PUBLISHER values("abcd2","BANG2",12766549876);
 INSERT into PUBLISHER values("abcd3","BANG3",13766587784);
 Insert into publisher values("abcd4","BANG4",57565773677);
-Insert into PUBLISHER values("abcd5",'bang5",89764567326);
-insert into publisher values("abcd6",
+Insert into PUBLISHER values("abcd5","bang5",89764567326);
+insert into publisher values("abcd6","bang6",
