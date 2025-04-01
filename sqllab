@@ -59,4 +59,4 @@ Insert into PUBLISHER values("abcd5","BANG5",1234554321);
 select * from PUBLISHER;
 
 insert into BOOK VALUES(201,'DBMS','PEARSON','2015');
-insert into BOOK VALUES
+insert into BOOK VALUES(202,'PYTHON PROGRAMMING','OXFORD','2020');
