@@ -60,3 +60,4 @@ select * from PUBLISHER;
 
 insert into BOOK VALUES(201,'DBMS','PEARSON','2015');
 insert into BOOK VALUES(202,'PYTHON PROGRAMMING','OXFORD','2020');
+insert into BOOK VALUES(203,'AI','MC GRAW HILL','2018');
