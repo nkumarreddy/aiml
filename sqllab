@@ -64,3 +64,4 @@ insert into BOOK VALUES(203,'AI','MC GRAW HILL','2018');
 insert into BOOK VALUES(204,'AUTOMATA THEORY','MACMILLAN','2014');
 insert into BOOK VALUES(211,'m1','CAMB1','2016');
 insert into BOOK VALUES(206,'m2','CAMB2','2017');
+insert into BOOK VALUES(207,'m3','CAMB3','2018');
