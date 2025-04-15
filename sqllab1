@@ -2,3 +2,4 @@ create database orders;
 use orders;
 create table salesman(
 (SALESMAN_ID INT PRIMARY KEY,
+NAME VARCHAR(20),
